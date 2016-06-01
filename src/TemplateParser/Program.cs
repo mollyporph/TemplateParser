@@ -61,11 +61,9 @@ namespace TemplateParser
                     foreach (var file in files)
                     {
                         sbInner.Append(ResolveReferences(File.ReadAllText(file), Path.GetDirectoryName(filePath)));
-                        sbInner.Append(",");
                         sbInner.Append(Environment.NewLine);
                     }
-                    var res = sbInner.ToString().TrimEnd(',');
-                    sb.Replace(matchString,res);
+                    sb.Replace(matchString,sbInner.ToString());
                 }
                 else
                 {
