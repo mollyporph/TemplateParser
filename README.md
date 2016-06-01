@@ -45,7 +45,7 @@ You can also supply and optional outfile with `dotnet run index.html outputfile.
 
 The resulting file will look like this:
 
-
+```
 <html>
 <body>
   <div>
@@ -56,3 +56,4 @@ The resulting file will look like this:
   <li> Second </li>
 </ul>
 </body>
+```
