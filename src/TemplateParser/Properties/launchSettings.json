@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TemplateParser": {
+      "commandName": "Project",
+      "commandLineArgs": "testtemplate.json"
+    }
+  }
+}
