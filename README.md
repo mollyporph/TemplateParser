@@ -41,7 +41,7 @@ listobjects/2.html
 ```
 
 Run with `dotnet run index.html`
-You can also supply and optional outfile with `dotnet run index.html outputfile.html`
+You can also supply an optional outfile with `dotnet run index.html outputfile.html`
 
 The resulting file will look like this:
 
