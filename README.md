@@ -9,14 +9,14 @@ Requires dotnet cli for RC2 or higher (download it here: https://www.microsoft.c
 For instance if you have the following files:
 
 index.html
-```
+```html
 <html>
 <body>
   <#REFERENCE=body.html#>
 </body>
 ```
 body.html
-```
+```html
 <div>
   <#REFERENCE=texts/sometext.txt#>
 </div>
@@ -31,12 +31,12 @@ Hello World!
 ```
 
 listobjects/1.html
-```
+```html
 <li> First</li>
 ```
 
 listobjects/2.html
-```
+```html
 <li> Second </li>
 ```
 
@@ -45,7 +45,7 @@ You can also supply an optional outfile with `dotnet run index.html outputfile.h
 
 The resulting file will look like this:
 
-```
+```html
 <html>
 <body>
   <div>
